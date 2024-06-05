@@ -1,0 +1,43 @@
+#greycol{
+    color: grey;
+}
+
+div+div>p {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+}
+
+div+h3+p{
+color: green;
+}
+
+.text-box>h3:first-child {
+    color: pink;               
+}
+th:hover {
+    color:aqua;
+}
+td:hover {
+    color:blueviolet;
+}
+
+td:nth-child(even) {
+    color:aquamarine
+}
+
+th:nth-child(even) {
+    color:aquamarine
+}
+td:nth-child(odd){
+    color: chartreuse;
+}
+td:nth-child(3n){
+    color: fuchsia;
+}
+
+td:nth-child(3)  {
+    color: #000;
+}
